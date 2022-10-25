@@ -1,15 +1,15 @@
-using System;
+п»їusing System;
 
 namespace School_1
 {
 
     /// <summary>
-    /// Класс.
+    /// РљР»Р°СЃСЃ.
     /// </summary>
     public class Classroom
     {
 
-        /// <param ClassName="className"> Номер класса. </param>
+        /// <param ClassName="className"> РќРѕРјРµСЂ РєР»Р°СЃСЃР°. </param>
 
         public Classroom(string className)
         {
@@ -23,11 +23,11 @@ namespace School_1
         }
 
         /// <summary>
-        /// Идентификатор
+        /// РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
         /// </summary>
         public Guid Id { get; }
         /// <summary>
-        /// Номер класса.
+        /// РќРѕРјРµСЂ РєР»Р°СЃСЃР°.
         /// </summary>
         public string ClassName { get; }
 

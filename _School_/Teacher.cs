@@ -1,17 +1,17 @@
-using System;
+п»їusing System;
 
 namespace School_1
 {
 
     /// <summary>
-    /// Классный руководитель.
+    /// В РљР»Р°СЃСЃРЅС‹Р№ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЊ.
     /// </summary>
     public class Teacher
     {
 
-        /// <param FirstName="firstName"> Имя классного руководителя. </param>
-        /// <param LastName="lastName"> Фамилия классного руководителя. </param>
-        /// <param MiddleName="middleName"> Отчество классного руководителя. </param>
+        /// <param FirstName="firstName"> РРјСЏ РєР»Р°СЃСЃРЅРѕРіРѕ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ. </param>
+        /// <param LastName="lastName"> Р¤Р°РјРёР»РёСЏ РєР»Р°СЃСЃРЅРѕРіРѕ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ. </param>
+        /// <param MiddleName="middleName"> РћС‚С‡РµСЃС‚РІРѕ РєР»Р°СЃСЃРЅРѕРіРѕ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ. </param>
 
         public Teacher(string lastName, string firstName,
             string middleName)
@@ -35,21 +35,21 @@ namespace School_1
         }
 
         /// <summary>
-        /// Идентификатор
+        /// РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
         /// </summary>
         public Guid Id { get; }
         /// <summary>
-        /// Имя классного руководителя.
+        /// РРјСЏ РєР»Р°СЃСЃРЅРѕРіРѕ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ.
         /// </summary>
         public string FirstName { get; }
 
         /// <summary>
-        /// Фамилия классного руководителя.
+        /// Р¤Р°РјРёР»РёСЏ РєР»Р°СЃСЃРЅРѕРіРѕ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ.
         /// </summary>
         public string LastName { get; }
 
         /// <summary>
-        /// Отчество классного руководителя.
+        /// РћС‚С‡РµСЃС‚РІРѕ РєР»Р°СЃСЃРЅРѕРіРѕ СЂСѓРєРѕРІРѕРґРёС‚РµР»СЏ.
         /// </summary>
         public string MiddleName { get; }
     }

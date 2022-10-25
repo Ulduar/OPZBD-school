@@ -1,17 +1,17 @@
-using System;
+п»їusing System;
 
 namespace School_1
 {
 
     /// <summary>
-    /// Ученик.
+    /// РЈС‡РµРЅРёРє.
     /// </summary>
     public class Student
     {
 
-        /// <param FirstName="firstName"> Имя ученика. </param>
-        /// <param LastName="lastName"> Фамилия ученика. </param>
-        /// <param MiddleName="middleName"> Отчество ученика. </param>
+        /// <param FirstName="firstName"> РРјСЏ СѓС‡РµРЅРёРєР°. </param>
+        /// <param LastName="lastName"> Р¤Р°РјРёР»РёСЏ СѓС‡РµРЅРёРєР°. </param>
+        /// <param MiddleName="middleName"> РћС‚С‡РµСЃС‚РІРѕ СѓС‡РµРЅРёРєР°. </param>
 
         public Student(string lastName, string firstName,
             string middleName)
@@ -35,21 +35,21 @@ namespace School_1
         }
 
         /// <summary>
-        /// Идентификатор
+        /// РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ
         /// </summary>
         public Guid Id { get; }
         /// <summary>
-        /// Имя ученика.
+        /// РРјСЏ СѓС‡РµРЅРёРєР°.
         /// </summary>
         public string FirstName { get; }
 
         /// <summary>
-        /// Фамилия ученика.
+        /// Р¤Р°РјРёР»РёСЏ СѓС‡РµРЅРёРєР°.
         /// </summary>
         public string LastName { get; }
 
         /// <summary>
-        /// Отчество ученика.
+        /// РћС‚С‡РµСЃС‚РІРѕ СѓС‡РµРЅРёРєР°.
         /// </summary>
         public string MiddleName { get; }
     }
